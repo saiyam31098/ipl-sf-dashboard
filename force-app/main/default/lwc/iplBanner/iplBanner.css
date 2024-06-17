@@ -6,8 +6,44 @@
     border-radius: 12px;
 }
 
+h1 {
+    font-size: 28px;
+    text-align: center;
+    padding: 16px;
+    font-weight: 600;
+}
+
 .banner-background {
     background-image: url('/resource/IPL_Images_and_logos/IPL_Images_and_logos/background.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.stats-box {
+    min-width: 200px;
+    border-radius: 5px;
+    padding: 12px;
+    text-align: center;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+.stats-box h3 {
+    font-size: 36px;
+}
+
+.ipl-winner {
+    margin: auto;
+    display: block;
+    padding-bottom: 24px;
+}
+
+.blue-shade {
+    /* background: linear-gradient(90deg, rgba(0,56,255,1) 0%, rgba(26,188,254,1) 35%); */
+    background: linear-gradient(90deg, rgba(23,34,181,1) 0%, rgba(22,88,198,1) 35%);
+}
+
+.pink-shade {
+    background: linear-gradient(90deg, rgba(139,35,61,1) 0%, rgba(198,22,141,1) 35%);
+}
+
