@@ -3,15 +3,40 @@
         <header>
             <h1>IPL T20 Dashboard</h1>
         </header>
-        <section class="slds-grid slds-wrap">
+        <section class="slds-grid slds-wrap slds-gutters">
             <div class="slds-col slds-size_3-of-12">
-                Left Column
+                <div class="slds-grid slds-wrap">
+                    <template for:each={leftStats} for:item="left">
+                        <div class="slds-col stats-box blue-shade" key={left.KPIUnit}>
+                            <p>{left.category} in 2024</p>
+                            <h3>{left.KPIValue}</h3>
+                            <p>{left.KPIUnit}</p>
+                        </div>
+                    </template>
+                </div>
             </div>
             <div class="slds-col slds-size_6-of-12">
-                Center Column
+                <img src={winner} alt="Winner 2024" class="ipl-winner" />
+                <lightning-carousel>
+                    <template for:each={carouselList} for:item="item">
+                        <lightning-carousel-image
+                            key={item.year} 
+                            src={item.url}
+                            alternative-text={item.altText}>
+                        </lightning-carousel-image>
+                    </template>
+                </lightning-carousel>
             </div>
             <div class="slds-col slds-size_3-of-12">
-                Right Column
+                <div class="slds-grid slds-wrap">
+                    <template for:each={rightStats} for:item="right">
+                        <div class="slds-col stats-box pink-shade" key={right.KPIUnit}>
+                            <p>{right.category} in 2024</p>
+                            <h3>{right.KPIValue}</h3>
+                            <p>{right.KPIUnit}</p>
+                        </div>
+                    </template>
+                </div>
             </div>
         </section>
     </main>

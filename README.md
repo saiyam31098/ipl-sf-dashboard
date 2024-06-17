@@ -1,18 +1,31 @@
-# Salesforce DX Project: Next Steps
+# IPL 2024 Dashboard - Salesforce
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+1. Developed a Dashboard by making REST API calls within LWC, fetching real-time data from external sources and seamlessly integrating it into the dashboard.
+2. Utilized techniques for global styling to ensure consistency and enhance the visual appeal of your dashboard.
+3. Fetched and manipulated data to tailor it to your dashboard's view, ensuring relevance and accuracy.
+4. Facilitated seamless communication between components using Lightning Messaging Service, enabling dynamic interaction and real-time updates.
 
-## How Do You Plan to Deploy Your Changes?
+Stack Used - LWC, CSS, JavaScript, Rest API, Apex, LMS
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
 
-## Configure Your Salesforce DX Project
+## How do you access the dashboard for demo?
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+1. Open the url : login.salesforce.com
+2. Use the following credentials to login: 
+    Username: ipldashboard@2024.com
+    Password: ipl@2024
+3. Open the IPL Dashboard App
+4. Click on Home.
 
-## Read All About It
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+## Configure the project in your Salesforce Org
+
+1. Create a Salesforce Developer Edition Org.
+2. Create a new IPL Dashboard app using App Manager in Setup.
+3. Create a new Home Page using Lightning App Builder and assign it to IPL Dashboard App.
+4. Download the code of the project using the current git repository and deploy it to your Salesforce Org.
+
+
+## Credits for the Project
+
+https://www.udemy.com/course/ipl-t20-dashboard-using-salesforce-lwc/
