@@ -27,7 +27,7 @@ export default class IplBanner extends LightningElement {
             this.rightStats = this.ipl2024StatsResponse.slice(half);
         } 
         if(error) {
-            console.log('ipl2024StatsHandler error: ', error);
+            console.error('ipl2024StatsHandler error: ', error);
         } 
     }
 

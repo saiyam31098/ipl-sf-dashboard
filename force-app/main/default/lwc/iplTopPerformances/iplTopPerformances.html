@@ -1,0 +1,10 @@
+<template>
+    <h2>IPL T20 2024 Top Performances</h2>
+    <div class="slds-grid slds-wrap">
+        <template for:each={keystats} for:item="statValue">
+            <div key={statValue.KPIUnit} class="slds-col slds-size_12-of-12">
+                <c-ipl-key-stats-2024 keystatsvalue={statValue}></c-ipl-key-stats-2024>
+            </div>
+        </template>
+    </div>
+</template>
