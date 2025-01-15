@@ -13,7 +13,7 @@ Stack Used - LWC, CSS, JavaScript, Rest API, Apex, LMS
 1. Open the url : login.salesforce.com
 2. Use the following credentials to login: 
     Username: ipldashboard@2024.com
-    Password: ipl@2024
+    Password: ipl@2025
 3. Open the IPL Dashboard App
 4. Click on Home.
 
